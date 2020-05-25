@@ -1,19 +1,10 @@
-Write an introduction of JavaScript Data Structure stores Hash Tables & Dictionaries and explain each one of them. (Provide with your explanation pseudocodes, diagrams and executable code.
+#H1 An introduction to JavaScript Hash Tables & Dictionaries
 
-I wrote all about JS Data structures in Week-11 repository, so this week I will focus more on Hash tables
+##H2 What is a hash table ?
+1. A hash table, or hash map, is a data structure that can map 'keys' to values. 
+A hash table uses a hash function to compute an 'index' AKA a hash code, into 'buckets' AKA slots from which a desired value can be found. The 'key' is hashed, and the resulting hash shows where the matching value is stored.
+In many situations, hash tables turn out to be on average more efficient than search trees or any other table lookup structure.
 
-Data structures enable us to:
+![alt text]
 
-Manage and utilize large datasets
-Search for particular data from a database
-Design algorithms that are tailored towards particular programs
-Handle multiple requests from users at once
-Simplify and speed up data processing
-
-JavaScript has primitive and non-primitive data structures. Primitive data structures and data types are native to the programming language. These include boolean, null, number, string, etc. Non-primitive data structures are not defined by the programming language but rather by the programmer. These include linear data structures, static data structures, and dynamic data structures, like queue and linked lists.
-
-Arrays
-Arrays are the most simple of the data structures, an array allows you to store data for later use. Arrays have a fixed number of cells, decided when creating the array, and each of these cells are given a numberic value (a number) or a numeric index to select the data).
-
-
-
+2. Good Hash Tables with minimal collisions allow you to perform inserts, finds and deletes much quicker. This constant timing makes them incredibly valuable data-structures when compared to the likes of Arrays for instance. To find an element in an array, you would have to iterate through all elements of that array before finding the one you want. Depending on the size of the array, this could be quite time comnsuming.
