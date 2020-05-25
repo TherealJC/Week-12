@@ -1,8 +1,8 @@
-#H1 An introduction to JavaScript Hash Tables & Dictionaries
+# H1 An introduction to JavaScript Hash Tables & Dictionaries
 
-##H2 What is a hash table ?
-1. A hash table, or hash map, is a data structure that can map 'keys' to values. 
-A hash table uses a hash function to compute an 'index' AKA a hash code, into 'buckets' AKA slots from which a desired value can be found. The 'key' is hashed, and the resulting hash shows where the matching value is stored.
+## H2 What is a hash table ?
+1. A hash table, or hash map, is a data structure that can map 'keys' to values. Hash Tables in Computer Science are a data structure that allow you to store key value pairs in such a way that allows for very quick look-up.
+2. A hash table uses a hash function to compute an 'index' AKA a hash code, into 'buckets' AKA slots from which a desired value can be found. The 'key' is hashed, and the resulting hash shows where the matching value is stored.
 In many situations, hash tables turn out to be on average more efficient than search trees or any other table lookup structure.
 
 ![alt text]
