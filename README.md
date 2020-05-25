@@ -46,68 +46,11 @@ The average time complexity of both the lookup and insert operations is O(1).
 
 ### JavaScript Dictionary
 
-There is no “Dictionary” in JavaScript,but you can create and use a dictionary object. The following steps show how to go about creating and populating a dictionary with Key/Value pairs:
+There is no “Dictionary” in JavaScript,but you can create and use a dictionary object (see Dictionary.js)
+Dictionary is also another word for Hash Tables.
 
-1. Create new object 
+#### Real world Example
 
-var dict = new Object();
-
-..*or the shorthand way
-
-var dict = {};
-
-You can also initialize the Dictionary with Key/Value pairs when creating it if you are using the shorthand method.
-
-var dict = {
-  FirstName: "Chris",
-  "one": 1,
-  1: "some value"
-};
-
-2. Populate Values on the Object
-
-This can be done by either setting the values using the Object’s Indexer property, or just calling it directly as a standard property on the object. As you’ll see below the Key values can be any object and are not limited to Strings.
-
-// using the Indexer
-dict["one"] = 1;
-dict[1] = "one";
-
-// add new or update property
-dict["Age"] = 42;
-
-// direct property by name
-// because it's a dynamic language
-dict.FirstName = "Chris";
-
-3. A for loop can be used to iterate through the dictionary.
-
-for(var key in dict) {
-  var value = dict[key];
-
-  // do something with "key" and "value" variables
-}
-
-By using the “for(var key in dict)” method of iterating on the object you are able to easily access all the key/value pairs in contains. This method will iterate with each “key” value being the Index on the Object that can be used to access the associated Value.
-
-Examples of using a Function in both Key and Value of a Dictionary:
-
-var dict = {};
-
-var f = function() {
-  // do something
-};
-
-// setup Function as Value
-dict['method'] = f;
-
-// setup Function as Key
-dict[f] = 'some value';
-
-// execute Function from Value
-dict['method']();
-
-var method = dict.method;
-method();
-
-// get value for Key
-var val = dict[f];
+You stay in a hotel for a few days. At the end of the day, when you return to the hotel, you ask the clerk if there are any messages for you. Behind him is the letter cupboard, with 26 entries, labeled A to Z. 
+Because he knows your last name, he can go to the slot labeled C, and takes out three letters. One is for Lauren Crawshaw, Pete Covid, and one is for Jamie Crowther, me.
+The clerk only had to inspect three letters. How many letters would he have to inspect if there would have been only one letter box?
