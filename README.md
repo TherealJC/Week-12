@@ -66,7 +66,12 @@ Data Structures are collections of values, the relationships among them, and the
 Classes / ES6 Class
 -Define our class (when naming class, ALWAYS start with capitol and continue with camel case). The body of a class is the part that is in
  curly brackets {}. This is where you define class members, such as methods or constructor.
--Must have a constructor, constructor must be named, it is a special method that is used to initiate new student instances.
+-Must have a constructor, constructor must always be written as 'constructor', it is a special method that is used to initiate new student instances. 
 -A constructor can use the super keyword to call the constructor of the super class (such as this.height, this.width)
 
+this.firstName = firstName
+this.lastName = lastName
+
 -The static keyword defines a static method for a class. Static methods are called without instantiating their class (eg. var John = new Person();)and cannot be called through a class instance. Static methods are often used to create utility functions for an application.
+
+-When a static or prototype method is called without a value for this, the this value will be undefined inside the method. This behavior will be the same even if the "use strict" directive isn't present, because code within the class body's syntactic boundary is always executed in strict mode.
