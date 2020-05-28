@@ -55,11 +55,7 @@ You stay in a hotel for a few days. At the end of the day, when you return to th
 Because he knows your last name, he can go to the slot labeled C, and takes out three letters. One is for Lauren Crawshaw, Pete Covid, and one is for Jamie Crowther, me.
 The clerk only had to inspect three letters. How many letters would he have to inspect if there would have been only one letter box?
 
-
-
-
-
-#####Data Structures (29/5/2020)
+Data Structures (29/5/2020)
 
 Data Structures are collections of values, the relationships among them, and the functions or operations that can be applied to the data.
 
@@ -76,7 +72,7 @@ this.lastName = lastName
 
 -When a static or prototype method is called without a value for this, the this value will be undefined inside the method. This behavior will be the same even if the "use strict" directive isn't present, because code within the class body's syntactic boundary is always executed in strict mode.
 
-######Stacks
+Stacks
 Stack is a collection of data, an abstract data structure and operates on a LIFO system (Last In First Out).
 Meaning that whatever you put in Last will be the first used First, a real example would be an actual stack of clothes in a bin, the last piece of clothing thrown in the bin will be the first thing to come out as it's on the top of the rest.
 
