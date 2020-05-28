@@ -75,3 +75,9 @@ this.lastName = lastName
 -The static keyword defines a static method for a class. Static methods are called without instantiating their class (eg. var John = new Person();)and cannot be called through a class instance. Static methods are often used to create utility functions for an application.
 
 -When a static or prototype method is called without a value for this, the this value will be undefined inside the method. This behavior will be the same even if the "use strict" directive isn't present, because code within the class body's syntactic boundary is always executed in strict mode.
+
+######Stacks
+Stack is a collection of data, an abstract data structure and operates on a LIFO system (Last In First Out).
+Meaning that whatever you put in Last will be the first used First, a real example would be an actual stack of clothes in a bin, the last piece of clothing thrown in the bin will be the first thing to come out as it's on the top of the rest.
+
+![alt text]()
