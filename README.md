@@ -58,5 +58,15 @@ The clerk only had to inspect three letters. How many letters would he have to i
 
 
 
-29/5/2020
+
+#####Data Structures (29/5/2020)
+
 Data Structures are collections of values, the relationships among them, and the functions or operations that can be applied to the data.
+
+Classes / ES6 Class
+-Define our class (when naming class, ALWAYS start with capitol and continue with camel case). The body of a class is the part that is in
+ curly brackets {}. This is where you define class members, such as methods or constructor.
+-Must have a constructor, constructor must be named, it is a special method that is used to initiate new student instances.
+-A constructor can use the super keyword to call the constructor of the super class (such as this.height, this.width)
+
+-The static keyword defines a static method for a class. Static methods are called without instantiating their class (eg. var John = new Person();)and cannot be called through a class instance. Static methods are often used to create utility functions for an application.
