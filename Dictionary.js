@@ -21,18 +21,21 @@ dict.FirstName = "Chris";
 
 //A for loop can be used to iterate through the dictionary.
 for(var key in dict) { var value = dict[key];
-// ^^^ do something with "key" and "value" variables }
+// ^^^ do something with "key" and "value" variables
+}
 
 //By using the “for(var key in dict)” method of iterating on the object you are able to easily
 //access all the key/value pairs in contains. This method will iterate with each “key” value being
 //the Index on the Object that can be used to access the associated Value.
 
+
+
 //Examples of using a Function in both Key and Value of a Dictionary:
 
 var dict = {};
 
-var f = function() { // do something };
-
+var f = function() { // do something
+};
 // setup Function as Value
 dict['method'] = f;
 

@@ -54,3 +54,9 @@ Dictionary is also another word for Hash Tables.
 You stay in a hotel for a few days. At the end of the day, when you return to the hotel, you ask the clerk if there are any messages for you. Behind him is the letter cupboard, with 26 entries, labeled A to Z. 
 Because he knows your last name, he can go to the slot labeled C, and takes out three letters. One is for Lauren Crawshaw, Pete Covid, and one is for Jamie Crowther, me.
 The clerk only had to inspect three letters. How many letters would he have to inspect if there would have been only one letter box?
+
+
+
+
+29/5/2020
+Data Structures are collections of values, the relationships among them, and the functions or operations that can be applied to the data.
