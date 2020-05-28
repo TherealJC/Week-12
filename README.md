@@ -80,4 +80,6 @@ this.lastName = lastName
 Stack is a collection of data, an abstract data structure and operates on a LIFO system (Last In First Out).
 Meaning that whatever you put in Last will be the first used First, a real example would be an actual stack of clothes in a bin, the last piece of clothing thrown in the bin will be the first thing to come out as it's on the top of the rest.
 
-![alt text]()
+![alt text](https://github.com/TherealJC/Week-12/blob/master/stack%20process%20example.png)
+
+![alt text](https://github.com/TherealJC/Week-12/blob/master/stacks.jpg)
