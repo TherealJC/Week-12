@@ -41,6 +41,25 @@ console.log(new Calculator2(10-10));
 console.log(new Calculator2(10*10));
 console.log(new Calculator2(10/10));
 
+//Stacks, commands for stacks.
+//Push → Add an element to the stack.
+//Pop → Delete an element from the stack.
+//Peek → Get the top element of the stack.
+//Length → Return the length of the stack.
+//Search → Search for the element in the stack.
+//IsEmpty → Check if the stack is empty.
+//Print → Print the elements of the stack.
+let stackArray = [1, 2, 3, 4, 5] //create array
+stackArray.push(5);  //add a new element to the array (5)
+console.log(stackArray)
+console.log(stackArray.pop()) //Remove the most recently added element as stacks are LIFO
+console.log(stackArray) //array after adding and removing the element, back to normal
+
+//Queues
+let queueArray = [1, 2, 3, 4, 5]
+queueArray.push(2)
+
+
 
 
 

@@ -89,5 +89,7 @@ Stack is a concept,  it is basically a set of rules that store data in a way tha
 
 Queues
 Veyr similar to stack but operates on a FIFO system, first in first out (after logic is applied). Example of queue is just like an actual queue(or a single file line of people) the first person in the line is the first person out of the line
+Queues use commands known and 'push' and 'shift'
 
-![alt text]()
+![alt text](https://github.com/TherealJC/Week-12/blob/master/queue.png)
+
