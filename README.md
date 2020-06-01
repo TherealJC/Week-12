@@ -91,5 +91,28 @@ Queues
 Veyr similar to stack but operates on a FIFO system, first in first out (after logic is applied). Example of queue is just like an actual queue(or a single file line of people) the first person in the line is the first person out of the line
 Queues use commands known and 'push' and 'shift'
 
-![alt text](https://github.com/TherealJC/Week-12/blob/master/queue.png)
+![alt text](https://github.com/TherealJC/Week-12/blob/master/queue.png).
+
+
+
+
+
+Linked Lists
+A linked list is a data structure that stores multiple values in a linear fashion. Each value in a linked list is contained in its own 'node', an object that contains the data along with a link to the next node in the list. 
+
+The link is a pointer to another node object or null if there is no next node. 
+If each node has just one pointer to another node (most frequently called next) then the list is considered a singly linked list (or just linked list) whereas if each node has two links (usually previous and next) then it is considered a doubly linked list.
+
+A linked list is a linear data structure where each element is a separate object.
+Each element (we will call it a node) of a list is comprising of two items - the data and a reference to the next node. 
+The last node has a reference to null.
+The entry point into a linked list is called the HEAD of the list. It should be noted that head is not a separate node, but the reference to the first node. If the list is empty then the head is a null reference.
+
+A linked list is a dynamic data structure. The number of nodes in a list can grow and shrink on demand. Applications that deal with an unknown number of objects will need to use a linked list.
+
+One disadvantage of a linked list against an array is that it does not allow direct access to the individual elements. If you want to access a particular item then you have to start at the head and follow the references until you get to that item.
+Linked lists also uses slightly more memory compared to an array.
+
+A good example is web-browsers, where it creates a linked list of web-pages visited, so that when you check history (traversal of a list) or press back button, the previous node's data is fetched.
+"A simple real life example is a Train, here each coach is connected to its previous and next coach (Except first and last). In terms of programming consider coach body as node value and connectors as links to previous and next nodes."
 

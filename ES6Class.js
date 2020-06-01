@@ -1,4 +1,4 @@
-//My working example
+//My working example off Class functions
 class Student {
     constructor(firstName, lastName, year) {
         this.firstName = firstName
@@ -41,7 +41,13 @@ console.log(new Calculator2(10-10));
 console.log(new Calculator2(10*10));
 console.log(new Calculator2(10/10));
 
+
+
+
+
+
 //Stacks, commands for stacks.
+
 //Push → Add an element to the stack.
 //Pop → Delete an element from the stack.
 //Peek → Get the top element of the stack.
